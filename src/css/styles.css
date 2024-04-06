@@ -137,6 +137,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
+
 .gallery-item {
   border: 1px solid #808080;
 }
@@ -145,6 +146,7 @@ body {
   width: 360px;
   height: 200px;
 }
+
 .wrapper {
   display: flex;
   flex-direction: row;
@@ -153,11 +155,13 @@ body {
   width: 360px;
   height: 48px;
 }
+
 .parameters {
   background-color: #fff;
   display: flex;
   flex-direction: column;
 }
+
 .title {
   font-weight: 600;
   font-size: 12px;
@@ -165,6 +169,7 @@ body {
   letter-spacing: 0.04em;
   color: #2e2f42;
 }
+
 .info {
   font-weight: 400;
   font-size: 12px;
