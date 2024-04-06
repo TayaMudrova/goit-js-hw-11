@@ -11,7 +11,7 @@ const form = document.querySelector('.form');
 const loader = document.querySelector('.loader');
 const gallery = document.querySelector('.gallery');
 
-form.addEventListener('submit', handleSubmit);
+form.addEventListener('submit', handelSubmit);
 
 function handelSubmit(event) {
   event.preventDefault();
@@ -55,7 +55,7 @@ function handelSubmit(event) {
     });
 }
 
-const lightbox = new SimpleLightbox('gallery a', {
+const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionsPosition: 'bottom',
   captionsDelay: 250,
