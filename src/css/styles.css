@@ -18,11 +18,15 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-div {
-  margin-top: 24px;
+.container {
+  margin-top: 36px;
   display: flex;
   justify-content: center;
   gap: 8px;
+}
+
+.form {
+  margin-top: 36px;
 }
 
 .form-input {
@@ -66,6 +70,10 @@ div {
 .form-btn:focus,
 .form-btn:hover {
   background-color: #6c8cff;
+}
+
+.css-loader {
+  display: none;
 }
 
 .loader {

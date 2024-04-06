@@ -8,7 +8,7 @@ import { showLoading } from './js/render-functions';
 import { hideLoading } from './js/render-functions';
 
 const form = document.querySelector('.form');
-const loader = document.querySelector('.loader');
+const loader = document.querySelector('.css-loader');
 const gallery = document.querySelector('.gallery');
 
 form.addEventListener('submit', handelSubmit);
